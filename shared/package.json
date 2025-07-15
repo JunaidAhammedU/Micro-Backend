@@ -1,0 +1,17 @@
+{
+    "name": "@ecommerce/shared",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "amqplib": "^0.10.3"
+    },
+    "devDependencies": {
+        "@types/amqplib": "^0.10.2",
+        "@types/node": "^24.0.14",
+        "typescript": "^5.4.0"
+    }
+}

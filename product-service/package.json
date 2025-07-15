@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "auth-service",
+  "name": "product-service",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@ecommerce/shared": "file:../shared",
     "amqplib": "^0.10.8",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.0",
